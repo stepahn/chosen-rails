@@ -1,6 +1,4 @@
-@import "compass/css3/box-sizing";
-@import "compass/css3/images";
-@import "compass/css3/user-interface";
+@import "bourbon";
 
 $chosen-sprite: image-url('chosen-sprite.png') !default;
 $chosen-sprite-retina: image-url('chosen-sprite@2x.png') !default;
@@ -34,7 +32,7 @@ $chosen-sprite-retina: image-url('chosen-sprite@2x.png') !default;
   a{
     cursor: pointer;
   }
-  
+
   .search-choice, .chosen-single{
     .group-name{
       margin-right: 4px;

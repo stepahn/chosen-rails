@@ -14,4 +14,4 @@ when /^3\.[0]/
   require 'chosen-rails/railtie'
 end
 
-require 'compass-rails'
+require 'bourbon'
